@@ -61,8 +61,7 @@ factorial(n) = n x factorial (n-1)
 This function can be defined as follows:
 ```python
 def factorial(n)
-if n == 0 or n==1: # base condition which doesn’t call the function
-any further
+if n == 0 or n==1: # base condition which doesn’t call the function any further
 return 1
 else:
  return n*factorial(n-1) # function calling itself
