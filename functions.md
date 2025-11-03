@@ -8,7 +8,7 @@ program to keep track on which piece of code is doing what!
 The syntax of a function looks as follows:
 ```python
 def func1():
-print('hello')
+  print('hello')
 ```
 This function can be called any number of times, anywhere in the program.
 ### FUNCTION CALL
@@ -35,8 +35,8 @@ parentheses.
 A function can also return value as shown below:
 ```python
 def greet(name):
-gr = "hello"+ name
-return gr
+  gr = "hello"+ name
+  return gr
 a = greet ("rahul")
 # a will now contain "hello rahul"
 ```
@@ -47,7 +47,7 @@ argument is passed.
 Example:
 ```python
 def greet(name = "stranger"):
-# function body
+  # function body
 greet() # name will be "stranger" in function body (default)
 greet("rahul") # name will be "rahul" in function body (passed)
 ```
