@@ -61,10 +61,10 @@ factorial(n) = n x factorial (n-1)
 This function can be defined as follows:
 ```python
 def factorial(n)
-if n == 0 or n==1: # base condition which doesn’t call the function any further
-return 1
-else:
- return n*factorial(n-1) # function calling itself
+  if n == 0 or n==1: # base condition which doesn’t call the function any further
+    return 1
+  else:
+   return n*factorial(n-1) # function calling itself
 ```
 The programmer needs to be extremely careful while working with recursion to ensure
 that the function doesn’t infinitely keep calling itself. Recursion is sometimes the most
